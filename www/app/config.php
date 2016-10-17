@@ -1,10 +1,10 @@
 <?php 
 
-    define('TWITTER_USER', 'IrmaBotAI');
-    define('CONSUMER_KEY', 'XPxVKsDvXIigYGlR0xxuMXkKq');
-    define('CONSUMER_SECRET', 'FiaIqyHjfdl6235Y9lbqkvzAwC7eGNf7mmV50b2Q660LKqvRiA');
-    define('ACCESS_TOKEN', '700759781057822720-dhpbY2BQqVpCDKBRuvP6zHBbGSzggh4');
-    define('ACCESSTOKEN_SECRET', 'Aw1Js1EqiJocTqvqUEbR5OGD2hliqugzXPA6IFrxv2OT4');
+    define('TWITTER_USER', '');
+    define('CONSUMER_KEY', '');
+    define('CONSUMER_SECRET', '');
+    define('ACCESS_TOKEN', '');
+    define('ACCESSTOKEN_SECRET', '');
     
 
 function autoload($className)

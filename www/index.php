@@ -13,7 +13,7 @@ include 'app/config.php';
     }else{
       $info_block='Fail! - OOps did not post this time.';
     }
-    // Output Response
+    // Output Response 
    	echo $info_block;
 
    	// GET TWEETS
