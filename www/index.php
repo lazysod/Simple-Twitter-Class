@@ -5,13 +5,13 @@ include 'app/config.php';
     $tweet = new twitter;
 
     //Post text to twitter
-    $response = $tweet->post('HELLO WORLD!!!!');
+    $response = $tweet->post('HELLO WORLD?!');
 
     // Generate Response
     if($response==200){
-      $info_block='Success!';
+      $info_block='Success! We posted to Twitter';
     }else{
-      $info_block='Fail!';
+      $info_block='Fail! - OOps did not post this time.';
     }
     // Output Response
    	echo $info_block;
@@ -23,5 +23,6 @@ include 'app/config.php';
    	print_r($result);
    	echo '</pre>';
 
-   	echo $tweer->help();
+   	// Output help file
+   	echo $tweet->help();
 ?>
