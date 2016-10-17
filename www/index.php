@@ -24,5 +24,5 @@ include 'app/config.php';
    	echo '</pre>';
 
    	// Output help file
-   	echo $tweet->help();
+   	echo $tweet->help(); 
 ?>
